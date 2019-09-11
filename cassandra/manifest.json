@@ -27,7 +27,11 @@
   "type": "check",
   "integration_id": "cassandra",
   "assets": {
-    "monitors": {},
+    "monitors": {
+      "Cassandra Dropped One Minute Rate": "assets/recommended_monitors/cassandra.dropped.one_minute_rate.json",
+      "Cassandra Live Ss Table Count": "assets/recommended_monitors/cassandra.live_ss_table_count.json",
+      "Cassandra Exceptions Count": "assets/recommended_monitors/cassandra.exceptions.count.json"
+    },
     "dashboards": {},
     "service_checks": "assets/service_checks.json"
   }

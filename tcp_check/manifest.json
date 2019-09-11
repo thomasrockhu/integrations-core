@@ -27,7 +27,10 @@
   "type": "check",
   "integration_id": "system",
   "assets": {
-    "monitors": {},
+    "monitors": {
+      "Tcp Check Tcp Response Time": "assets/recommended_monitors/network.tcp.response_time.json",
+      "Tcp Check Tcp Can Connect": "assets/recommended_monitors/network.tcp.can_connect.json"
+    },
     "dashboards": {},
     "service_checks": "assets/service_checks.json"
   }

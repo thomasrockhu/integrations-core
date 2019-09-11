@@ -35,7 +35,9 @@
     "configuration": {
       "spec": "assets/configuration/spec.yaml"
     },
-    "monitors": {},
+    "monitors": {
+      "Ssh Check Response Time": "assets/recommended_monitors/sftp.response_time.json"
+    },
     "dashboards": {},
     "service_checks": "assets/service_checks.json"
   }

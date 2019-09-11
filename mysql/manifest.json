@@ -30,7 +30,13 @@
     "configuration": {
       "spec": "assets/configuration/spec.yaml"
     },
-    "monitors": {},
+    "monitors": {
+      "Mysql Net Connections": "assets/recommended_monitors/mysql.net.connections.json",
+      "Mysql Replication Seconds Behind Master": "assets/recommended_monitors/mysql.replication.seconds_behind_master.json",
+      "Mysql Performance Slow Queries": "assets/recommended_monitors/mysql.performance.slow_queries.json",
+      "Mysql Performance Threads Connected": "assets/recommended_monitors/mysql.performance.threads_connected.json",
+      "Mysql Replication Slave Running": "assets/recommended_monitors/mysql.replication.slave_running.json"
+    },
     "dashboards": {},
     "saved_views": {
       "operations": "assets/saved_views/operations.json",

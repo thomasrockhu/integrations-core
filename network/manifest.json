@@ -26,7 +26,10 @@
     "configuration": {
       "spec": "assets/configuration/spec.yaml"
     },
-    "monitors": {},
+    "monitors": {
+      "Network Net Bytes Sent": "assets/recommended_monitors/system.net.bytes_sent.json",
+      "Network Net Bytes Rcvd": "assets/recommended_monitors/system.net.bytes_rcvd.json"
+    },
     "dashboards": {},
     "service_checks": "assets/service_checks.json"
   }

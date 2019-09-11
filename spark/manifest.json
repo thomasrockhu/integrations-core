@@ -26,7 +26,10 @@
     "configuration": {
       "spec": "assets/configuration/spec.yaml"
     },
-    "monitors": {},
+    "monitors": {
+      "Spark Driver Memory Used": "assets/recommended_monitors/spark.driver.memory_used.json",
+      "Spark Executor Memory Used": "assets/recommended_monitors/spark.executor.memory_used.json"
+    },
     "dashboards": {},
     "service_checks": "assets/service_checks.json"
   }

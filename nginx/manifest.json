@@ -29,7 +29,11 @@
     "configuration": {
       "spec": "assets/configuration/spec.yaml"
     },
-    "monitors": {},
+    "monitors": {
+      "Nginx Net Request Per S": "assets/recommended_monitors/nginx.net.request_per_s.json",
+      "Nginx Net Conn Dropped Per S": "assets/recommended_monitors/nginx.net.conn_dropped_per_s.json",
+      "Nginx Net Connections": "assets/recommended_monitors/nginx.net.connections.json"
+    },
     "dashboards": {
       "NGINX Plus base overview": "assets/dashboards/plus_overview.json"
     },

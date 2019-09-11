@@ -25,7 +25,11 @@
     "configuration": {
       "spec": "assets/configuration/spec.yaml"
     },
-    "monitors": {},
+    "monitors": {
+      "Processes Mem Pct": "assets/recommended_monitors/system.processes.mem.pct.json",
+      "Processes Number": "assets/recommended_monitors/system.processes.number.json",
+      "Processes Cpu Pct": "assets/recommended_monitors/system.processes.cpu.pct.json"
+    },
     "dashboards": {},
     "service_checks": "assets/service_checks.json"
   }

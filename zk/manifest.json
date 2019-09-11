@@ -31,7 +31,12 @@
   "type": "check",
   "integration_id": "zookeeper",
   "assets": {
-    "monitors": {},
+    "monitors": {
+      "Zk Outstanding Requests": "assets/recommended_monitors/zookeeper.outstanding_requests.json",
+      "Zk Latency Avg": "assets/recommended_monitors/zookeeper.latency.avg.json",
+      "Zk Avg Latency": "assets/recommended_monitors/zookeeper.avg_latency.json",
+      "Zk Instances": "assets/recommended_monitors/zookeeper.instances.json"
+    },
     "dashboards": {},
     "service_checks": "assets/service_checks.json"
   }

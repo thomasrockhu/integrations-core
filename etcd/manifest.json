@@ -32,7 +32,14 @@
   "type": "check",
   "integration_id": "etcd",
   "assets": {
-    "monitors": {},
+    "monitors": {
+      "Etcd Store Update Fail": "assets/recommended_monitors/etcd.store.update.fail.json",
+      "Etcd Store Gets Fail": "assets/recommended_monitors/etcd.store.gets.fail.json",
+      "Etcd Leader Counts Fail": "assets/recommended_monitors/etcd.leader.counts.fail.json",
+      "Etcd Store Sets Fail": "assets/recommended_monitors/etcd.store.sets.fail.json",
+      "Etcd Store Create Fail": "assets/recommended_monitors/etcd.store.create.fail.json",
+      "Etcd Leader Latency Avg": "assets/recommended_monitors/etcd.leader.latency.avg.json"
+    },
     "dashboards": {
       "Etcd Overview": "assets/dashboards/etcd_overview.json"
     },

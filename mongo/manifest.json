@@ -33,7 +33,11 @@
     "configuration": {
       "spec": "assets/configuration/spec.yaml"
     },
-    "monitors": {},
+    "monitors": {
+      "Mongo Connections Current": "assets/recommended_monitors/mongodb.connections.current.json",
+      "Mongo Replset Health": "assets/recommended_monitors/mongodb.replset.health.json",
+      "Mongo Replset Replicationlag": "assets/recommended_monitors/mongodb.replset.replicationlag.json"
+    },
     "dashboards": {},
     "saved_views": {
       "operations_by_type_overview": "assets/saved_views/operations_by_type_overview.json",

@@ -35,7 +35,12 @@
     "configuration": {
       "spec": "assets/configuration/spec.yaml"
     },
-    "monitors": {},
+    "monitors": {
+      "Consul Peers": "assets/recommended_monitors/consul.peers.json",
+      "Consul Catalog Services Critical": "assets/recommended_monitors/consul.catalog.services_critical.json",
+      "Consul Catalog Nodes Up": "assets/recommended_monitors/consul.catalog.nodes_up.json",
+      "Consul Catalog Nodes Critical": "assets/recommended_monitors/consul.catalog.nodes_critical.json"
+    },
     "dashboards": {},
     "service_checks": "assets/service_checks.json"
   }

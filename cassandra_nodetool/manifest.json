@@ -22,7 +22,9 @@
   "type": "check",
   "integration_id": "cassandra-nodetool",
   "assets": {
-    "monitors": {},
+    "monitors": {
+      "Cassandra Nodetool Nodetool Status Status": "assets/recommended_monitors/cassandra.nodetool.status.status.json"
+    },
     "dashboards": {},
     "service_checks": "assets/service_checks.json"
   }

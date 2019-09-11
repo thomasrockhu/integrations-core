@@ -27,7 +27,13 @@
   "type": "check",
   "integration_id": "rabbitmq",
   "assets": {
-    "monitors": {},
+    "monitors": {
+      "Rabbitmq Node Mem Used": "assets/recommended_monitors/rabbitmq.node.mem_used.json",
+      "Rabbitmq Node Partitions": "assets/recommended_monitors/rabbitmq.node.partitions.json",
+      "Rabbitmq Queue Consumers": "assets/recommended_monitors/rabbitmq.queue.consumers.json",
+      "Rabbitmq Queue Messages Ready": "assets/recommended_monitors/rabbitmq.queue.messages_ready.json",
+      "Rabbitmq Queue Messages": "assets/recommended_monitors/rabbitmq.queue.messages.json"
+    },
     "dashboards": {},
     "saved_views": {
       "pid_overview": "assets/saved_views/status_overview.json",

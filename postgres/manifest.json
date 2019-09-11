@@ -38,7 +38,12 @@
     "configuration": {
       "spec": "assets/configuration/spec.yaml"
     },
-    "monitors": {},
+    "monitors": {
+      "Postgres Replication Delay": "assets/recommended_monitors/postgresql.replication_delay.json",
+      "Postgres Connections": "assets/recommended_monitors/postgresql.connections.json",
+      "Postgres Percent Usage Connections": "assets/recommended_monitors/postgresql.percent_usage_connections.json",
+      "Postgres Deadlocks": "assets/recommended_monitors/postgresql.deadlocks.json"
+    },
     "dashboards": {},
     "saved_views": {
       "operations": "assets/saved_views/operations.json",

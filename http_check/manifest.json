@@ -26,7 +26,12 @@
   "type": "check",
   "integration_id": "network",
   "assets": {
-    "monitors": {},
+    "monitors": {
+      "Http Check Http Response Time": "assets/recommended_monitors/network.http.response_time.json",
+      "Http Check Http Cant Connect": "assets/recommended_monitors/network.http.cant_connect.json",
+      "Http Check Ssl Days Left": "assets/recommended_monitors/http.ssl.days_left.json",
+      "Http Check Http Can Connect": "assets/recommended_monitors/network.http.can_connect.json"
+    },
     "dashboards": {},
     "service_checks": "assets/service_checks.json"
   }

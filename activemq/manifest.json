@@ -31,7 +31,11 @@
     "configuration": {
       "spec": "assets/configuration/spec.yaml"
     },
-    "monitors": {},
+    "monitors": {
+      "Activemq Queue Enqueue Count": "assets/recommended_monitors/activemq.queue.enqueue_count.json",
+      "Activemq Queue Size": "assets/recommended_monitors/activemq.queue.size.json",
+      "Activemq Queue Dequeue Count": "assets/recommended_monitors/activemq.queue.dequeue_count.json"
+    },
     "dashboards": {},
     "service_checks": "assets/service_checks.json"
   }

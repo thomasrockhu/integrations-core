@@ -30,7 +30,10 @@
   "type": "check",
   "integration_id": "haproxy",
   "assets": {
-    "monitors": {},
+    "monitors": {
+      "Haproxy Backend Response 5xx": "assets/recommended_monitors/haproxy.backend.response.5xx.json",
+      "Haproxy Backend Response Time": "assets/recommended_monitors/haproxy.backend.response.time.json"
+    },
     "dashboards": {},
     "saved_views": {
       "4xx_errors": "assets/saved_views/4xx_errors.json",

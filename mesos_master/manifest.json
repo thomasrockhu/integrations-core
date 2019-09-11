@@ -31,7 +31,14 @@
   "type": "check",
   "integration_id": "mesos-master",
   "assets": {
-    "monitors": {},
+    "monitors": {
+      "Mesos Master Cluster Disk Percent": "assets/recommended_monitors/mesos.cluster.disk_percent.json",
+      "Mesos Master Cluster Slaves Active": "assets/recommended_monitors/mesos.cluster.slaves_active.json",
+      "Mesos Master Cluster Tasks Failed": "assets/recommended_monitors/mesos.cluster.tasks_failed.json",
+      "Mesos Master Cluster Mem Percent": "assets/recommended_monitors/mesos.cluster.mem_percent.json",
+      "Mesos Master Cluster Cpus Percent": "assets/recommended_monitors/mesos.cluster.cpus_percent.json",
+      "Mesos Master Stats Elected": "assets/recommended_monitors/mesos.stats.elected.json"
+    },
     "dashboards": {},
     "service_checks": "assets/service_checks.json"
   }

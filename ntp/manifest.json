@@ -23,7 +23,9 @@
   "type": "check",
   "integration_id": "ntp",
   "assets": {
-    "monitors": {},
+    "monitors": {
+      "Ntp Offset": "assets/recommended_monitors/ntp.offset.json"
+    },
     "dashboards": {},
     "service_checks": "assets/service_checks.json"
   }

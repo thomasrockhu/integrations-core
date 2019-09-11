@@ -34,7 +34,9 @@
     "configuration": {
       "spec": "assets/configuration/spec.yaml"
     },
-    "monitors": {},
+    "monitors": {
+      "Fluentd Buffer Total Queued Size": "assets/recommended_monitors/fluentd.buffer_total_queued_size.json"
+    },
     "dashboards": {},
     "service_checks": "assets/service_checks.json"
   }

@@ -36,7 +36,9 @@
   "type": "check",
   "integration_id": "php-fpm",
   "assets": {
-    "monitors": {},
+    "monitors": {
+      "Php Fpm Processes Active": "assets/recommended_monitors/php_fpm.processes.active.json"
+    },
     "dashboards": {},
     "service_checks": "assets/service_checks.json"
   }

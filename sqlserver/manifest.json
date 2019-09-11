@@ -26,7 +26,12 @@
     "configuration": {
       "spec": "assets/configuration/spec.yaml"
     },
-    "monitors": {},
+    "monitors": {
+      "Sqlserver Stats Lock Waits": "assets/recommended_monitors/sqlserver.stats.lock_waits.json",
+      "Sqlserver Stats Procs Blocked": "assets/recommended_monitors/sqlserver.stats.procs_blocked.json",
+      "Sqlserver Buffer Cache Hit Ratio": "assets/recommended_monitors/sqlserver.buffer.cache_hit_ratio.json",
+      "Sqlserver Stats Connections": "assets/recommended_monitors/sqlserver.stats.connections.json"
+    },
     "dashboards": {},
     "service_checks": "assets/service_checks.json"
   }

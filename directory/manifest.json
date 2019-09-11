@@ -22,7 +22,11 @@
   "type": "check",
   "integration_id": "system",
   "assets": {
-    "monitors": {},
+    "monitors": {
+      "Disk Directory Files": "assets/recommended_monitors/system.disk.directory.files.json",
+      "Disk Directory Bytes": "assets/recommended_monitors/system.disk.directory.bytes.json",
+      "Disk Directory File Modified Sec Ago": "assets/recommended_monitors/system.disk.directory.file.modified_sec_ago.json"
+    },
     "dashboards": {},
     "service_checks": "assets/service_checks.json"
   }

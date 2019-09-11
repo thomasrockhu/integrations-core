@@ -22,7 +22,9 @@
   "type": "check",
   "integration_id": "datadog-agent",
   "assets": {
-    "monitors": {},
+    "monitors": {
+      "Agent Metrics Agent Running": "assets/recommended_monitors/datadog.agent.running.json"
+    },
     "dashboards": {},
     "service_checks": "assets/service_checks.json"
   }

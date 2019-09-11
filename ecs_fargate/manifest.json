@@ -24,7 +24,9 @@
   "type": "check",
   "integration_id": "aws-fargate",
   "assets": {
-    "monitors": {},
+    "monitors": {
+      "Ecs Fargate Fargate Cpu Percent": "assets/recommended_monitors/ecs.fargate.cpu.percent.json"
+    },
     "dashboards": {
       "Amazon Fargate": "assets/dashboards/amazon_fargate_overview.json"
     },

@@ -30,7 +30,12 @@
     "configuration": {
       "spec": "assets/configuration/spec.yaml"
     },
-    "monitors": {},
+    "monitors": {
+      "Tomcat Threads Count": "assets/recommended_monitors/tomcat.threads.count.json",
+      "Tomcat Error Count": "assets/recommended_monitors/tomcat.error_count.json",
+      "Tomcat Request Count": "assets/recommended_monitors/tomcat.request_count.json",
+      "Tomcat Threads Busy": "assets/recommended_monitors/tomcat.threads.busy.json"
+    },
     "dashboards": {},
     "service_checks": "assets/service_checks.json"
   }

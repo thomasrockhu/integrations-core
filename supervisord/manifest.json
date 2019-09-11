@@ -30,7 +30,9 @@
   "type": "check",
   "integration_id": "supervisord",
   "assets": {
-    "monitors": {},
+    "monitors": {
+      "Supervisord Process Uptime": "assets/recommended_monitors/supervisord.process.uptime.json"
+    },
     "dashboards": {},
     "service_checks": "assets/service_checks.json"
   }

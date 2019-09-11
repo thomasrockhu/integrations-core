@@ -31,7 +31,9 @@
     "configuration": {
       "spec": "assets/configuration/spec.yaml"
     },
-    "monitors": {},
+    "monitors": {
+      "Ceph Aggregate Pct Used": "assets/recommended_monitors/ceph.aggregate_pct_used.json"
+    },
     "dashboards": {},
     "service_checks": "assets/service_checks.json"
   }

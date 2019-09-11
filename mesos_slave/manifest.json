@@ -23,7 +23,10 @@
   "type": "check",
   "integration_id": "mesos-slave",
   "assets": {
-    "monitors": {},
+    "monitors": {
+      "Mesos Slave Slave Tasks Staging": "assets/recommended_monitors/mesos.slave.tasks_staging.json",
+      "Mesos Slave Slave Tasks Failed": "assets/recommended_monitors/mesos.slave.tasks_failed.json"
+    },
     "dashboards": {},
     "service_checks": "assets/service_checks.json"
   }

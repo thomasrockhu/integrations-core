@@ -36,7 +36,12 @@
     "configuration": {
       "spec": "assets/configuration/spec.yaml"
     },
-    "monitors": {},
+    "monitors": {
+      "Apache Net Request Per S": "assets/recommended_monitors/apache.net.request_per_s.json",
+      "Apache Performance Busy Workers": "assets/recommended_monitors/apache.performance.busy_workers.json",
+      "Apache Performance Idle Workers": "assets/recommended_monitors/apache.performance.idle_workers.json",
+      "Apache Net Hits": "assets/recommended_monitors/apache.net.hits.json"
+    },
     "dashboards": {},
     "saved_views": {
       "4xx_errors": "assets/saved_views/4xx_errors.json",

@@ -30,7 +30,13 @@
   "type": "check",
   "integration_id": "redis",
   "assets": {
-    "monitors": {},
+    "monitors": {
+      "Redisdb Info Latency Ms": "assets/recommended_monitors/redis.info.latency_ms.json",
+      "Redisdb Net Clients": "assets/recommended_monitors/redis.net.clients.json",
+      "Redisdb Key Length": "assets/recommended_monitors/redis.key.length.json",
+      "Redisdb Keys": "assets/recommended_monitors/redis.keys.json",
+      "Redisdb Mem Used": "assets/recommended_monitors/redis.mem.used.json"
+    },
     "dashboards": {},
     "saved_views": {
       "error_warning_status": "assets/saved_views/error_warning_status.json",

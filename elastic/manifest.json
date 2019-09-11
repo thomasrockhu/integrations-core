@@ -33,7 +33,12 @@
     "configuration": {
       "spec": "assets/configuration/spec.yaml"
     },
-    "monitors": {},
+    "monitors": {
+      "Elastic Cluster Status": "assets/recommended_monitors/elasticsearch.cluster_status.json",
+      "Elastic Unassigned Shards": "assets/recommended_monitors/elasticsearch.unassigned_shards.json",
+      "Elastic Mem Heap in Use": "assets/recommended_monitors/jvm.mem.heap_in_use.json",
+      "Elastic Number of Nodes": "assets/recommended_monitors/elasticsearch.number_of_nodes.json"
+    },
     "dashboards": {},
     "service_checks": "assets/service_checks.json"
   }

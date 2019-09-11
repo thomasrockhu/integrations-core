@@ -22,7 +22,13 @@
   "type": "check",
   "integration_id": "kubelet",
   "assets": {
-    "monitors": {},
+    "monitors": {
+      "Kubelet Containers Restarts": "assets/recommended_monitors/kubernetes.containers.restarts.json",
+      "Kubelet Memory Usage Pct": "assets/recommended_monitors/kubernetes.memory.usage_pct.json",
+      "Kubelet Pods Running": "assets/recommended_monitors/kubernetes.pods.running.json",
+      "Kubelet Memory Usage": "assets/recommended_monitors/kubernetes.memory.usage.json",
+      "Kubelet Cpu Usage Total": "assets/recommended_monitors/kubernetes.cpu.usage.total.json"
+    },
     "dashboards": {},
     "service_checks": "assets/service_checks.json"
   }

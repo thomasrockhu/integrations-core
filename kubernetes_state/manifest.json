@@ -23,7 +23,13 @@
   "type": "check",
   "integration_id": "kubernetes-state",
   "assets": {
-    "monitors": {},
+    "monitors": {
+      "Kubernetes State Pod Status Phase": "assets/recommended_monitors/kubernetes_state.pod.status_phase.json",
+      "Kubernetes State Container Restarts": "assets/recommended_monitors/kubernetes_state.container.restarts.json",
+      "Kubernetes State Deployment Replicas Unavailable": "assets/recommended_monitors/kubernetes_state.deployment.replicas_unavailable.json",
+      "Kubernetes State Node Status": "assets/recommended_monitors/kubernetes_state.node.status.json",
+      "Kubernetes State Deployment Replicas Available": "assets/recommended_monitors/kubernetes_state.deployment.replicas_available.json"
+    },
     "dashboards": {},
     "service_checks": "assets/service_checks.json"
   }

@@ -29,7 +29,9 @@
     "configuration": {
       "spec": "assets/configuration/spec.yaml"
     },
-    "monitors": {},
+    "monitors": {
+      "Dns Check Response Time": "assets/recommended_monitors/dns.response_time.json"
+    },
     "dashboards": {},
     "service_checks": "assets/service_checks.json"
   }

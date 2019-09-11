@@ -23,7 +23,11 @@
   "type": "check",
   "integration_id": "yarn",
   "assets": {
-    "monitors": {},
+    "monitors": {
+      "Yarn Metrics Total Nodes": "assets/recommended_monitors/yarn.metrics.total_nodes.json",
+      "Yarn Metrics Unhealthy Nodes": "assets/recommended_monitors/yarn.metrics.unhealthy_nodes.json",
+      "Yarn Metrics Active Nodes": "assets/recommended_monitors/yarn.metrics.active_nodes.json"
+    },
     "dashboards": {},
     "service_checks": "assets/service_checks.json"
   }

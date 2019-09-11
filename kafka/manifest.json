@@ -28,7 +28,9 @@
   "type": "check",
   "integration_id": "kafka",
   "assets": {
-    "monitors": {},
+    "monitors": {
+      "Kafka Replication Under Replicated Partitions": "assets/recommended_monitors/kafka.replication.under_replicated_partitions.json"
+    },
     "dashboards": {},
     "saved_views": {
       "error_warning_status": "assets/saved_views/error_warning_status.json",

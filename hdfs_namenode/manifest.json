@@ -27,7 +27,12 @@
     "configuration": {
       "spec": "assets/configuration/spec.yaml"
     },
-    "monitors": {},
+    "monitors": {
+      "Hdfs Namenode Namenode Num Live Data Nodes": "assets/recommended_monitors/hdfs.namenode.num_live_data_nodes.json",
+      "Hdfs Namenode Namenode Under Replicated Blocks": "assets/recommended_monitors/hdfs.namenode.under_replicated_blocks.json",
+      "Hdfs Namenode Namenode Blocks Total": "assets/recommended_monitors/hdfs.namenode.blocks_total.json",
+      "Hdfs Namenode Namenode Corrupt Blocks": "assets/recommended_monitors/hdfs.namenode.corrupt_blocks.json"
+    },
     "dashboards": {},
     "service_checks": "assets/service_checks.json"
   }

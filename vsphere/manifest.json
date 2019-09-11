@@ -25,7 +25,10 @@
   "type": "check",
   "integration_id": "vsphere",
   "assets": {
-    "monitors": {},
+    "monitors": {
+      "Vsphere Cpu Usage": "assets/recommended_monitors/vsphere.cpu.usage.json",
+      "Vsphere Cpu Usage Avg": "assets/recommended_monitors/vsphere.cpu.usage.avg.json"
+    },
     "dashboards": {
       "vsphere-overview": "assets/dashboards/vsphere_overview.json"
     },

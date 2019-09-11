@@ -29,7 +29,10 @@
     "configuration": {
       "spec": "assets/configuration/spec.yaml"
     },
-    "monitors": {},
+    "monitors": {
+      "Solr Search Handler Errors": "assets/recommended_monitors/solr.search_handler.errors.json",
+      "Solr Searcher Maxdoc": "assets/recommended_monitors/solr.searcher.maxdoc.json"
+    },
     "dashboards": {},
     "service_checks": "assets/service_checks.json"
   }

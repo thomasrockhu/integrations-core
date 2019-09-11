@@ -23,7 +23,10 @@
   "type": "check",
   "integration_id": "oracle",
   "assets": {
-    "monitors": {},
+    "monitors": {
+      "Oracle Tablespace In Use": "assets/recommended_monitors/oracle.tablespace.in_use.json",
+      "Oracle Session Limit Usage": "assets/recommended_monitors/oracle.session_limit_usage.json"
+    },
     "dashboards": {
       "oracle": "assets/dashboards/oracle_overview.json"
     },

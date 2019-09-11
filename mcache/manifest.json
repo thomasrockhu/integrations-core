@@ -30,7 +30,9 @@
   "type": "check",
   "integration_id": "memcached",
   "assets": {
-    "monitors": {},
+    "monitors": {
+      "Mcache Curr Connections": "assets/recommended_monitors/memcache.curr_connections.json"
+    },
     "dashboards": {},
     "service_checks": "assets/service_checks.json"
   }

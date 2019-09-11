@@ -23,7 +23,10 @@
   "type": "check",
   "integration_id": "kubernetes",
   "assets": {
-    "monitors": {},
+    "monitors": {
+      "Kubernetes Memory Usage": "assets/recommended_monitors/kubernetes.memory.usage.json",
+      "Kubernetes Cpu Usage Total": "assets/recommended_monitors/kubernetes.cpu.usage.total.json"
+    },
     "dashboards": {
       "Kubernetes - Pods": "assets/dashboards/kubernetes_pods.json"
     },
