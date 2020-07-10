@@ -31,6 +31,7 @@ def test_check_kafka(aggregator, kafka_instance):
 @pytest.mark.e2e
 def test_e2e(dd_agent_check, mock_kafka_dns_e2e, kafka_instance):
     import pdb
+
     pdb.set_trace()
     aggregator = dd_agent_check(kafka_instance)
 
