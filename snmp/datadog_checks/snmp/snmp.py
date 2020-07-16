@@ -524,6 +524,10 @@ class SnmpCheck(AgentCheck):
             self.log.warning('No such Mib available: %s', name)
             return
 
+        if not snmp_value:
+            # Ignore empty string ''
+            return
+
         if 'metric_suffix' in options:
             metric_name = self.normalize('{}.{}'.format(name, options['metric_suffix']), prefix='snmp')
         else:
