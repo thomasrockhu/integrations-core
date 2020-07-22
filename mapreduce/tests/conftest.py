@@ -35,6 +35,7 @@ def dd_environment():
     with docker_run(
         compose_file=os.path.join(HERE, "compose", "docker-compose.yaml"),
         conditions=[WaitFor(setup_mapreduce, attempts=240, wait=5)],
+        mount_logs=True,
         env_vars=env,
     ):
         yield INSTANCE_INTEGRATION

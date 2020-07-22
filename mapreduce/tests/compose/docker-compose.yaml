@@ -11,3 +11,5 @@ services:
       - "8088:8088"
     volumes:
       - './yarn-site.xml:/usr/local/hadoop/etc/hadoop/yarn-site.xml'
+      - ${DD_LOG_1}:/usr/local/hadoop/logs/hadoop-root-namenode-localhost.log
+      - ${DD_LOG_2}:/usr/local/hadoop/logs/hadoop-root-datadnode-localhost.log
