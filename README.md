@@ -53,3 +53,4 @@ An up-to-date list of all developers authorized to sign releases can be found [h
 [23]: https://datadoghq.dev/integrations-core/process/integration-release/#releasers
 [24]: https://img.shields.io/badge/code%20style-isort-1674b1.svg
 [25]: https://github.com/PyCQA/isort
+
